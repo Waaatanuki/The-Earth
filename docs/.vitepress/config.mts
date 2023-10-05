@@ -47,11 +47,7 @@ export default defineConfig({
       { icon: 'github', link: 'https://github.com/Waaatanuki/The-Earth' }
     ],
     lastUpdated: {
-      text: '最后更新于',
-      formatOptions: {
-        dateStyle: 'full',
-        timeStyle: 'medium'
-      }
+      text: '最后更新于 ',
     }
   }
 })
