@@ -1,11 +1,21 @@
 {
-  "packageManager": "pnpm@8.7.6",
-  "devDependencies": {
-    "vitepress": "1.0.0-rc.20"
-  },
+  "packageManager": "pnpm@8.8.0",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:preview": "vitepress preview docs",
+    "up": "taze major -I"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.43.1",
+    "@types/node": "^20.8.3",
+    "@unocss/eslint-config": "^0.56.5",
+    "eslint": "^8.51.0",
+    "taze": "^0.11.3",
+    "unocss": "^0.56.5",
+    "vitepress": "1.0.0-rc.20"
   }
 }

@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.formatOnSave": true,
+  "vue.codeActions.enabled": false,
+  "[markdown]": {
+    "editor.fontFamily": "'Sarasa MONO HC'"
+  }
+}
