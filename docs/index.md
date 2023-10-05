@@ -20,7 +20,7 @@ features:
     details: 国内最大的骑空士交流论坛
   - title: 碧蓝幻想中文wiki
     link: https://gbf.huijiwiki.com/wiki/
-    details: 相当全面的碧蓝幻想中文维基百科
+    details: 全面的碧蓝幻想中文维基百科
   - title: 碧蓝幻想便利工具网站
     link: https://waaatanuki.github.io/gbf-app/
     details: 实用小工具
