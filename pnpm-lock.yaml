@@ -5,6 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 devDependencies:
+  '@plugin-web-update-notification/vite':
+    specifier: ^1.6.5
+    version: registry.npmmirror.com/@plugin-web-update-notification/vite@1.6.5(vite@4.4.10)
   vitepress:
     specifier: 1.0.0-rc.20
     version: registry.npmmirror.com/vitepress@1.0.0-rc.20(@algolia/client-search@4.20.0)(search-insights@2.8.3)
@@ -517,6 +520,24 @@ packages:
     resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz}
     name: '@jridgewell/sourcemap-codec'
     version: 1.4.15
+    dev: true
+
+  registry.npmmirror.com/@plugin-web-update-notification/core@1.6.5:
+    resolution: {integrity: sha512-DgyeVczO3nziivhI1p9+iWILFwnBmH0tmlVJKMf6q3YlFSqG8pDgNEylBN77Whwkuso2JrBcuhLqHSAnm1tiYw==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@plugin-web-update-notification/core/-/core-1.6.5.tgz}
+    name: '@plugin-web-update-notification/core'
+    version: 1.6.5
+    dev: true
+
+  registry.npmmirror.com/@plugin-web-update-notification/vite@1.6.5(vite@4.4.10):
+    resolution: {integrity: sha512-11nsEiOdDRZFbsSTNHWN4dA/dLoABwCPqErQZtDndPOQF9dW3TVpyCm4YZ6uuRv5RdretK2ELq+2kDkDFB4uFQ==, registry: https://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/@plugin-web-update-notification/vite/-/vite-1.6.5.tgz}
+    id: registry.npmmirror.com/@plugin-web-update-notification/vite/1.6.5
+    name: '@plugin-web-update-notification/vite'
+    version: 1.6.5
+    peerDependencies:
+      vite: '>4.0.0 || ^3.0.0 || ^2.0.0'
+    dependencies:
+      '@plugin-web-update-notification/core': registry.npmmirror.com/@plugin-web-update-notification/core@1.6.5
+      vite: registry.npmmirror.com/vite@4.4.10
     dev: true
 
   registry.npmmirror.com/@types/linkify-it@3.0.3:
