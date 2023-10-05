@@ -15,11 +15,14 @@ hero:
       link: /begining/why
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: NGA 碧蓝幻想专区
+    link: https://nga.178.com/thread.php?fid=560
+    details: 国内最大的骑空士交流论坛
+  - title: 碧蓝幻想中文wiki
+    link: https://gbf.huijiwiki.com/wiki/
+    details: 相当全面的碧蓝幻想中文维基百科
+  - title: 碧蓝幻想便利工具网站
+    link: https://waaatanuki.github.io/gbf-app/
+    details: 实用小工具
 ---
 

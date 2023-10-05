@@ -1,14 +1,11 @@
 import { defineConfig } from 'vitepress'
-import { webUpdateNotice } from '@plugin-web-update-notification/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "The Earth",
   description: "About Earth",
   base: '/The-Earth/',
-  vite: {
-    plugins: [webUpdateNotice({ logVersion: true }),]
-  },
+  head: [['link', { rel: 'icon', href: '/The-Earth/favicon.ico' }]],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
