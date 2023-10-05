@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 开始
-      link: /markdown-examples
+      link: /begining/introduction
     - theme: alt
       text: 为什么玩土
-      link: /api-examples
+      link: /begining/why
 
 features:
   - title: Feature A
