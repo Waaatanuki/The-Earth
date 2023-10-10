@@ -9,6 +9,8 @@ const imgUrl = computed(() => {
       return `https://prd-game-a1-granbluefantasy.akamaized.net/assets/img/sp/assets/weapon/m/${props.id}.jpg`
     case 'npc':
       return `https://prd-game-a1-granbluefantasy.akamaized.net/assets/img/sp/assets/npc/m/${props.id}_01.jpg`
+    case 'summon':
+      return `https://prd-game-a1-granbluefantasy.akamaized.net/assets/img/sp/assets/summon/m/${props.id}.jpg`
     default:
       return ''
   }
@@ -20,6 +22,8 @@ const wikiUrl = computed(() => {
       return `https://gbf.huijiwiki.com/wiki/Weapon/${props.id}`
     case 'npc':
       return `https://gbf.huijiwiki.com/wiki/Char/${props.id}`
+    case 'summon':
+      return `https://gbf.huijiwiki.com/wiki/Summon/${props.id}`
     default:
       return ''
   }
