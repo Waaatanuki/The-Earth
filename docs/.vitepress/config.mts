@@ -61,6 +61,7 @@ export default defineConfig({
     sidebarMenuLabel: '菜单',
     returnToTopLabel: '回到顶部',
     outline: {
+      level: 'deep',
       label: '本页目录',
     },
   },
