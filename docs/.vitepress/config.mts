@@ -9,8 +9,7 @@ export default defineConfig({
   head: [
     ['link', { rel: 'icon', href: '/The-Earth/favicon.ico' }],
     [
-      'script',
-      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHXEE5Y30K' },
+      'script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHXEE5Y30K' },
     ],
     [
       'script',
