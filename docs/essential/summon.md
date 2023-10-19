@@ -18,13 +18,14 @@
 | <MyImg type='summon' id='2040203000' name='乌列尔' />       | 高   | 无脑带 |
 | <MyImg type='summon' id='2040401000' name='伽莱翁' />       | 高   | 有格子无脑带 |
 | <MyImg type='summon' id='2040392000' name='野槌蛇' />       | 中   | 涂鸦启动器，0破也能用 |
-| <MyImg type='summon' id='2040285000' name='猩猩' />         | 中   |  |
-| <MyImg type='summon' id='2040403000' name='曼德拉草' />     | 中   |  |
-| <MyImg type='summon' id='2040205000' name='布洛蒂亚' />     | 中   |  |
-| <MyImg type='summon' id='2040084000' name='泰坦' />         | 中   |  |
+| <MyImg type='summon' id='2040403000' name='曼德拉草' />     | 中   | 土这贫瘠的盘子还是很需要这个浑身 |
+| <MyImg type='summon' id='2040084000' name='泰坦' />         | 中   | 当前环境已经很少有双面的情况了，更多的目的是为了交友 |
+| <MyImg type='summon' id='2040205000' name='布洛蒂亚' />     | 低   | 特定场合有用 |
+| <MyImg type='summon' id='2040285000' name='猩猩' />         | 低   | [为何猩猩跌落神坛](#为何猩猩跌落神坛) |
 | <MyImg type='summon' id='2040368000' name='猛犸' />         | 低   | 朴实无华的追伤 |
-| <MyImg type='summon' id='2040342000' name='土偶' />         | 低   |  |
-| <MyImg type='summon' id='2040173000' name='土豹子' />       | 低   |  |
+| <MyImg type='summon' id='2040342000' name='土偶' />         | 低   | 满破主招大帽子用 |
+| <MyImg type='summon' id='2040173000' name='土豹子' />       | 低   | 花里胡哨的 |
 
+## 为何猩猩跌落神坛
 
-
+要回答这个问题，首先需要回想一下之前都是什么场合用猩猩。

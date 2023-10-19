@@ -6,7 +6,21 @@ export default defineConfig({
   title: 'The Earth',
   description: 'About Earth',
   base: '/The-Earth/',
-  head: [['link', { rel: 'icon', href: '/The-Earth/favicon.ico' }]],
+  head: [
+    ['link', { rel: 'icon', href: '/The-Earth/favicon.ico' }],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHXEE5Y30K' },
+    ],
+    [
+      'script',
+      {},
+    `window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-QHXEE5Y30K');`,
+    ],
+  ],
   vite: {
     plugins: [
       Unocss(),
