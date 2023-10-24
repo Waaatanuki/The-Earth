@@ -62,6 +62,7 @@ export default defineConfig({
           { text: '猎砂', link: '/build/sandglass' },
           { text: '古战场', link: '/build/guildWar' },
           { text: '极巴', link: '/build/superBahamut' },
+          { text: '天元六龙', link: '/build/superSixDragon' },
         ],
       },
     ],
