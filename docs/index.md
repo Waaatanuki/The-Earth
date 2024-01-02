@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "ザ · Earth"
-  text: "今天土约定出了吗?"
+  text: "今天土飞哥出了吗?"
   tagline: Make Earth Great Again!
   actions:
     - theme: brand
