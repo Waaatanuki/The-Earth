@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import Unocss from 'unocss/vite'
+import { webUpdateNotice } from '@plugin-web-update-notification/vite'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -23,6 +24,7 @@ export default defineConfig({
   vite: {
     plugins: [
       Unocss(),
+      webUpdateNotice({ logVersion: true })
     ],
   },
   themeConfig: {
