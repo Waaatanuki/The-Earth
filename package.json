@@ -12,6 +12,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^2.6.1",
+    "@plugin-web-update-notification/vite": "^1.7.0",
     "@types/node": "^20.10.6",
     "@unocss/eslint-config": "^0.58.3",
     "eslint": "^8.56.0",
