@@ -22,7 +22,6 @@ features:
     link: https://gbf.huijiwiki.com/wiki/
     details: 全面的碧蓝幻想中文维基百科
   - title: 碧蓝幻想便利工具网站
-    link: https://waaatanuki.github.io/gbf-app/
+    link: http://gbf.pub
     details: 实用小工具
 ---
-
