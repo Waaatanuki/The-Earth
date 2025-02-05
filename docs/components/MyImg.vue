@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 
-const props = defineProps<{ id: string; type: string; name: string }>()
+const props = defineProps<{ id: string, type: string, name: string }>()
 
 const imgUrl = computed(() => {
   switch (props.type) {
