@@ -1,6 +1,6 @@
-import { defineConfig } from 'vitepress'
-import Unocss from 'unocss/vite'
 import { webUpdateNotice } from '@plugin-web-update-notification/vite'
+import Unocss from 'unocss/vite'
+import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -9,7 +9,7 @@ export default defineConfig({
   base: '/The-Earth/',
   head: [
     ['link', { rel: 'icon', href: '/The-Earth/favicon.ico' }],
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHXEE5Y30K' },],
+    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHXEE5Y30K' }],
     [
       'script',
       {},
@@ -22,7 +22,7 @@ export default defineConfig({
   vite: {
     plugins: [
       Unocss(),
-      webUpdateNotice({ logVersion: true })
+      webUpdateNotice({ logVersion: true }),
     ],
   },
   themeConfig: {
@@ -62,7 +62,7 @@ export default defineConfig({
           { text: '猎砂', link: '/build/sandglass' },
           { text: '古战场', link: '/build/guildWar' },
           { text: '极巴', link: '/build/superBahamut' },
-          { text: '天元六龙', link: '/build/superSixDragon' },
+          { text: '天元', link: '/build/tengen' },
         ],
       },
     ],
