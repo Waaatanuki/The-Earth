@@ -63,6 +63,7 @@ export default defineConfig({
           { text: '古战场', link: '/build/guildWar' },
           { text: '极巴', link: '/build/superBahamut' },
           { text: '天元', link: '/build/tengen' },
+          { text: '极法', link: '/build/rushizero' },
         ],
       },
     ],
