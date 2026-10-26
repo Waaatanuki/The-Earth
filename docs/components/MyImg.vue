@@ -32,7 +32,8 @@ const wikiUrl = computed(() => {
 
 <template>
   <div>
-    <img :src="imgUrl" :alt="name" max-w-100px>
-    <a :href="wikiUrl" target="_blank">{{ name }}</a>
+    <a :href="wikiUrl" target="_blank" rel="noopener noreferrer">
+      <img :src="imgUrl" :alt="name" max-w-150px>
+    </a>
   </div>
 </template>

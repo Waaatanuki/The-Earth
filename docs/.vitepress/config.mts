@@ -1,6 +1,21 @@
+import { readdirSync, readFileSync } from 'node:fs'
 import { webUpdateNotice } from '@plugin-web-update-notification/vite'
 import Unocss from 'unocss/vite'
 import { defineConfig } from 'vitepress'
+
+const npcDirectory = new URL('../npc/', import.meta.url)
+const characters = readdirSync(npcDirectory)
+  .filter(file => file.endsWith('.md'))
+  .sort()
+  .map((file) => {
+    const content = readFileSync(new URL(file, npcDirectory), 'utf-8')
+    const id = file.slice(0, -3)
+
+    return {
+      text: content.match(/^# (.+)$/m)?.[1].replace(/^\[.*?\]\s*/, '') ?? id,
+      link: `/npc/${id}`,
+    }
+  })
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -8,8 +23,14 @@ export default defineConfig({
   description: 'About Earth',
   base: '/The-Earth/',
   head: [
-    ['link', { rel: 'icon', href: '/The-Earth/favicon.ico' }],
-    ['script', { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHXEE5Y30K' }],
+    [
+      'link',
+      { rel: 'icon', href: '/The-Earth/favicon.ico' },
+    ],
+    [
+      'script',
+      { async: '', src: 'https://www.googletagmanager.com/gtag/js?id=G-QHXEE5Y30K' },
+    ],
     [
       'script',
       {},
@@ -48,9 +69,11 @@ export default defineConfig({
       {
         text: '基础',
         items: [
-          { text: '角色', link: '/essential/character' },
-          { text: '武器', link: '/essential/weapon' },
-          { text: '召唤', link: '/essential/summon' },
+          {
+            text: 'SSR 角色',
+            collapsed: true,
+            items: characters,
+          },
         ],
       },
       {
