@@ -21,6 +21,7 @@ const characters = readdirSync(npcDirectory)
 export default defineConfig({
   title: 'The Earth',
   description: 'About Earth',
+  lang: 'zh-CN',
   base: '/The-Earth/',
   head: [
     [
@@ -47,6 +48,40 @@ export default defineConfig({
     ],
   },
   themeConfig: {
+    search: {
+      provider: 'local',
+      options: {
+        detailedView: true,
+        miniSearch: {
+          options: {
+            // 索引和查询使用相同的中文分词，支持检索技能正文中的词语
+            tokenize: text => Array.from(
+              new Intl.Segmenter('zh-CN', { granularity: 'word' }).segment(text),
+            ).filter(segment => segment.isWordLike).map(segment => segment.segment),
+          },
+          searchOptions: {
+            combineWith: 'AND',
+          },
+        },
+        translations: {
+          button: {
+            buttonText: '搜索文档',
+            buttonAriaLabel: '搜索文档',
+          },
+          modal: {
+            displayDetails: '显示详细结果',
+            resetButtonTitle: '清空搜索',
+            backButtonTitle: '关闭搜索',
+            noResultsText: '没有找到相关结果',
+            footer: {
+              selectText: '打开',
+              navigateText: '切换',
+              closeText: '关闭',
+            },
+          },
+        },
+      },
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '主页', link: '/' },
