@@ -4,7 +4,6 @@ layout: home
 
 hero:
   name: "ザ · Earth"
-  text: "今天土飞哥出了吗?"
   tagline: Make Earth Great Again!
   actions:
     - theme: brand
@@ -22,6 +21,6 @@ features:
     link: https://gbf.huijiwiki.com/wiki/
     details: 全面的碧蓝幻想中文维基百科
   - title: 碧蓝幻想便利工具网站
-    link: http://gbf.pub
+    link: https://gbf.pub
     details: 实用小工具
 ---

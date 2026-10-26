@@ -6,11 +6,11 @@ const props = defineProps<{ id: string, type: string, name: string }>()
 const imgUrl = computed(() => {
   switch (props.type) {
     case 'weapon':
-      return `https://prd-game-a1-granbluefantasy.akamaized.net/assets/img/sp/assets/weapon/m/${props.id}.jpg`
+      return `https://prd-game-a-granbluefantasy.akamaized.net/assets/img/sp/assets/weapon/m/${props.id}.jpg`
     case 'npc':
-      return `https://prd-game-a1-granbluefantasy.akamaized.net/assets/img/sp/assets/npc/m/${props.id}_01.jpg`
+      return `https://prd-game-a-granbluefantasy.akamaized.net/assets/img/sp/assets/npc/m/${props.id}_01.jpg`
     case 'summon':
-      return `https://prd-game-a1-granbluefantasy.akamaized.net/assets/img/sp/assets/summon/m/${props.id}.jpg`
+      return `https://prd-game-a-granbluefantasy.akamaized.net/assets/img/sp/assets/summon/m/${props.id}.jpg`
     default:
       return ''
   }
